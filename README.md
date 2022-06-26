@@ -1,9 +1,12 @@
 # TestWork619221
 
 ## Start backend environment
-```cd backend```
+```
+cd backend
+// make a copy of .env.example and rename to .env
 
-```docker-compose up --build```
+docker-compose up --build
+```
 
 ## Connect to application container
 ```docker exec -it php-fpm bash```
