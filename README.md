@@ -2,6 +2,7 @@
 
 ## Start backend environment
 ```cd backend```
+
 ```docker-compose up --build```
 
 ## Connect to application container
@@ -62,6 +63,7 @@ Content-Type: application/json
 
 ## Start frontend environment
 ```cd frontend```
+
 ```yarn install```
 
 ## Run app for development
