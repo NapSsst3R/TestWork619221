@@ -3,8 +3,7 @@
 ## Start backend environment
 ```
 cd backend
-// make a copy of .env.example and rename to .env
-
+cp .env.example .env
 docker-compose up --build
 ```
 
